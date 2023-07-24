@@ -1,4 +1,4 @@
-# VitorDataBin
+
 Descrição do Projeto
 
 Este projeto tem como objetivo realizar uma análise exploratória dos dados do Exame Nacional do Ensino Médio (ENEM) de 2019. Utilizando as bibliotecas Seaborn, Matplotlib e Plotly, foram desenvolvidas visualizações de dados e aplicadas técnicas estatísticas para investigar possíveis correlações entre características dos candidatos e suas notas.
