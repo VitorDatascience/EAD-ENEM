@@ -1,41 +1,14 @@
 
 Descrição do Projeto
 
-Este projeto tem como objetivo realizar uma análise exploratória dos dados do Exame Nacional do Ensino Médio (ENEM) de 2019. Utilizando as bibliotecas Seaborn, Matplotlib e Plotly, foram desenvolvidas visualizações de dados e aplicadas técnicas estatísticas para investigar possíveis correlações entre características dos candidatos e suas notas.
+Foi observado que a raça, principalmente entre os candidatos indígenas, apresentou uma correlação significativa com as notas obtidas. Além disso, a escolaridade dos pais teve uma influência marcante nas notas de matemática, destacando a importância do apoio familiar e do acesso à educação de qualidade.
 
-Recursos Utilizados
+Um aspecto interessante identificado foi a relação da renda familiar com as notas de matemática. Foi observada uma correlação positiva moderada, indicando que candidatos provenientes de famílias com maior renda tendem a obter notas mais altas nessa disciplina.
 
-Seaborn: biblioteca Python para visualização de dados estatísticos.
-Matplotlib: biblioteca Python para criação de gráficos e visualizações.
-Plotly: biblioteca Python para criação de gráficos interativos.
-Etapas do Projeto
+Por outro lado, não foi possível confirmar uma relação direta entre as notas e as variáveis de sexo e idade, indicando que outros fatores podem ter influenciado os resultados.
 
-Pré-processamento dos dados: realização de limpeza, tratamento de valores ausentes e seleção das variáveis relevantes.
-Análise descritiva: exploração das distribuições, medidas estatísticas principais e visualização de correlações entre as variáveis.
-Análise por características dos candidatos: investigação das notas em relação a raça, escolaridade dos pais, renda familiar, sexo e idade.
-Identificação de correlações: identificação de possíveis correlações entre características dos candidatos e suas notas.
-Conclusões e insights: apresentação dos principais resultados encontrados e insights obtidos a partir da análise dos dados.
-Resultados
+Através da análise dos dados, também foi evidenciado que a maioria dos candidatos é proveniente de origens humildes, com renda familiar inferior a R$2.000,00. O perfil típico do candidato do ENEM é do sexo feminino, com 18 anos, solteira, parda, e com pais que não possuem ensino superior completo.
 
-Após a análise dos dados do ENEM 2019, chegamos a algumas conclusões e insights relevantes:
+Essas conclusões proporcionam insights valiosos para a compreensão do desempenho dos candidatos no ENEM 2019 e podem auxiliar na formulação de políticas e estratégias para promover a igualdade de oportunidades e melhorias no sistema educacional.
 
-Existe uma evidência de correlação entre a raça dos candidatos, principalmente indígenas, e suas notas.
-A escolaridade dos pais exerce grande influência nas notas de matemática dos candidatos.
-Há uma correlação moderada entre a renda familiar e as notas de matemática, com uma correlação pouco acima de 0,5.
-Não foram encontradas evidências de correlação entre as notas e o sexo dos candidatos.
-A maioria dos candidatos possui origem humilde, com renda familiar inferior a R$2.000,00.
-Próximos Passos
-
-Com base nos resultados obtidos, algumas sugestões para próximos passos do projeto são:
-
-Realizar análises mais aprofundadas e específicas para cada variável, explorando outras correlações e insights relevantes.
-Utilizar técnicas de machine learning para prever as notas dos candidatos com base em suas características.
-Ampliar a amostra de dados, incluindo anos anteriores do ENEM, para obter uma visão mais abrangente e comparativa.
-Desenvolver um painel interativo ou aplicativo web para permitir a exploração interativa dos dados pelos usuários.
-Contribuição
-
-Este projeto foi desenvolvido como um exemplo de análise de dados aplicada ao ENEM. Sinta-se à vontade para contribuir com sugestões, melhorias e novas análises. Seu feedback é sempre bem-vindo!
-
-Licença
-
-Este projeto está licenciado sob a licença MIT. Para obter mais informações, consulte o arquivo LICENSE.
+Em resumo, a aplicação do CRISP-DM nessa análise de dados do ENEM 2019 possibilitou a obtenção de conclusões que contribuem para uma visão mais abrangente sobre as relações entre as características dos candidatos e suas notas, fornecendo subsídios para a tomada de decisões e o desenvolvimento de ações voltadas à melhoria da educação e ao incentivo ao sucesso dos estudantes.
